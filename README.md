@@ -12,10 +12,9 @@ This repository contains an ASP.NET Core API project that utilizes the OpenAI AP
   - [Generate Answer for Question](#generate-answer-for-question)
   - [Generate Answers for Questions in Audio Files](#generate-answers-for-questions-in-audio-files)
 - [Running the Application](#running-the-application)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## API Endpoints
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/AllAPIs.png)
 
 ### Generate Paragraph Summary
 
@@ -35,6 +34,7 @@ public async Task<string> GenerateParagraphSummary(string paragraph)
     return await _openAiService.GenerateSummaryFromInstructions(instructions);
 }
 ```
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateParagraphSummary.png)
 
 ### Generate Summary for Audio Files
 
@@ -64,6 +64,7 @@ public async Task<string> GenerateSummaryForAudioFiles([FromForm] MediaFiles aud
     return audioTranscript.ToString();
 }
 ```
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateSummaryForAudioFiles.png)
 
 ### Generate Answer for Question
 
@@ -79,6 +80,7 @@ public async Task<string> GenerateAnswerForQuestion(string question)
     return await _openAiService.GenerateAnswerForQuestionAsync(instructions);
 }
 ```
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateAnswerForQuestion.png)
 
 ### Generate Answers for Questions in Audio Files
 
@@ -113,6 +115,7 @@ public async Task<List<string>> GenerateAnswersForQuestionInAudioFiles([FromForm
     return audioTranscriptAnswers;
 }
 ```
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateAnswersForQuestionInAudioFiles.png)
 
 ## Running the Application
 
