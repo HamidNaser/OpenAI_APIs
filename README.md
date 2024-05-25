@@ -33,7 +33,7 @@ public async Task<string> GenerateParagraphSummary(string paragraph)
     return await _openAiService.GenerateSummaryFromInstructions(instructions);
 }
 ```
-![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateAnswerForQuestion.PNG)
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateParagraphSummary.PNG)
 
 ### Generate Summary for Audio Files
 
@@ -63,7 +63,7 @@ public async Task<string> GenerateSummaryForAudioFiles([FromForm] MediaFiles aud
     return audioTranscript.ToString();
 }
 ```
-![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateSummaryForAudioFiles.png)
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateSummaryForAudioFiles.PNG)
 
 ### Generate Answer for Question
 
@@ -79,7 +79,7 @@ public async Task<string> GenerateAnswerForQuestion(string question)
     return await _openAiService.GenerateAnswerForQuestionAsync(instructions);
 }
 ```
-![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/AllAPIs.PNG)
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateAnswerForQuestion.PNG)
 
 ### Generate Answers for Questions in Audio Files
 
@@ -114,7 +114,8 @@ public async Task<List<string>> GenerateAnswersForQuestionInAudioFiles([FromForm
     return audioTranscriptAnswers;
 }
 ```
-![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateAnswersForQuestionInAudioFiles.png)
+
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateAnswersForQuestionInAudioFiles.PNG)
 
 
 
