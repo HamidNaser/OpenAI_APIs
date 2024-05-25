@@ -11,7 +11,6 @@ This repository contains an ASP.NET Core API project that utilizes the OpenAI AP
   - [Generate Summary for Audio Files](#generate-summary-for-audio-files)
   - [Generate Answer for Question](#generate-answer-for-question)
   - [Generate Answers for Questions in Audio Files](#generate-answers-for-questions-in-audio-files)
-- [Running the Application](#running-the-application)
 
 ## API Endpoints
 ![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/AllAPIs.png)
@@ -117,6 +116,6 @@ public async Task<List<string>> GenerateAnswersForQuestionInAudioFiles([FromForm
 ```
 ![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateAnswersForQuestionInAudioFiles.png)
 
-## Running the Application
+
 
 
