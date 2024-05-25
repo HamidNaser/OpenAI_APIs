@@ -33,7 +33,7 @@ public async Task<string> GenerateParagraphSummary(string paragraph)
     return await _openAiService.GenerateSummaryFromInstructions(instructions);
 }
 ```
-![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateParagraphSummary.png)
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/AllAPIs.PNG)
 
 ### Generate Summary for Audio Files
 
@@ -79,7 +79,7 @@ public async Task<string> GenerateAnswerForQuestion(string question)
     return await _openAiService.GenerateAnswerForQuestionAsync(instructions);
 }
 ```
-![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/GenerateAnswerForQuestion.png)
+![Application Interface](https://github.com/HamidNaser/OpenAI_APIs/blob/main/AllAPIs.PNG)
 
 ### Generate Answers for Questions in Audio Files
 
