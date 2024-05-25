@@ -1,6 +1,3 @@
-Yes, the content provided will be the complete `README.md` for your new project. Here is the finalized version for clarity:
-
-```markdown
 # OpenAI APIs
 
 This repository contains an ASP.NET Core API project that utilizes the OpenAI API to generate summaries, transcriptions, and answers from text and audio files.
